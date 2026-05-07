@@ -124,8 +124,8 @@ class Miner(BaseMinerNeuron):
             ),
         }
         ml_defaults = {
-            "model_name": "poker44-chunk-voting-ensemble",
-            "model_version": "3",
+            "model_name": "poker44-bd-premium-v2",
+            "model_version": "4",
             "framework": "scikit-learn VotingClassifier (RF+HGBM), optional Platt calibration",
             # Do not inherit the reference subnet URL/name pairing; declare your public fork via env
             # (``POKER44_MODEL_REPO_URL`` / ``POKER44_MODEL_REPO_COMMIT`` or ``run_miner.sh`` git defaults).
